@@ -25,12 +25,12 @@ cp ~/.vimrc ~/.vimrc_bak
 
 recommend
 ```
-curl https://raw.githubusercontent.com/wklken/vim-for-server/master/vimrc > ~/.vimrc
+curl https://raw.githubusercontent.com/nerdneilsfield/vim-for-server/master/vimrc > ~/.vimrc
 ```
 or  use git
 
 ```
-git clone https://github.com/wklken/vim-for-server.git
+git clone https://github.com/nerdneilsfield/vim-for-server.git
 ln -s vim-for-server/vimrc ~/.vimrc
 ```
 
@@ -39,7 +39,7 @@ ln -s vim-for-server/vimrc ~/.vimrc
 
 # Donation
 
-You can Buy me a coffee:)  [link](http://www.wklken.me/pages/donation.html)
+You can Buy wklen a coffee:)  [link](http://www.wklken.me/pages/donation.html)
 
 
 ------------------------

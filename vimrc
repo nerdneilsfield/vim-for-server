@@ -1,8 +1,9 @@
 "==========================================
-" ProjectLink: https://github.com/wklken/vim-for-server
-" Author:  wklken
-" Version: 0.2
-" Email: wklken@yeah.net
+" Author:  wklken, dengqi
+" ProjectLink: https://github.com/nerdneilsfiled/vim-for-server
+" OriginProjectLink: https://github.com/wklken/vim-for-server
+" Version: 0.9
+" Email: dengqi935@gmail.com
 " BlogPost: http://www.wklken.me
 " Donation: http://www.wklken.me/pages/donation.html
 " ReadMe: README.md
@@ -18,7 +19,7 @@ let g:mapleader = ','
 syntax on
 
 " history : how many lines of history VIM has to remember
-set history=2000
+set history=3000
 
 " filetype
 filetype on
@@ -199,6 +200,7 @@ nnoremap <F6> :exec exists('syntax_on') ? 'syn off' : 'syn on'<CR>
 
 " kj 替换 Esc
 inoremap kj <Esc>
+inoremap <C-[> <Esc>
 
 " Quickly close the current window
 nnoremap <leader>q :q<CR>
